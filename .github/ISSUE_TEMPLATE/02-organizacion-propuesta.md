@@ -1,26 +1,22 @@
-name: "02 | 📂 Organización de la propuesta"
-about: "Estructurar la propuesta y planificar el desarrollo del proyecto"
-title: "02 | 📂 Organización de la propuesta"
+---
+name: "01 | 🔎 Aprender a investigar"
+about: "Primera fase del proyecto: fundamentos básicos de la investigación"
+title: "01 | 🔎 Aprender a investigar"
 labels: ["pendiente"]
 assignees: ""
-
 ---
 
 ## Descripción
-Organizar la propuesta de investigación definiendo apartados iniciales y un esquema claro para el desarrollo.
-
----
+Introducción al proceso de investigación: comprender los pasos fundamentales y conocer herramientas digitales para iniciar el proyecto.
 
 ## Checklist
-- [ ] Crear un borrador del esquema de la propuesta.
-- [ ] Organizar secciones: portada, índice, objetivos.
-- [ ] Revisar formato y normas de estilo indicadas.
-- [ ] Presentar esquema al docente para retroalimentación.
+- [ ] Revisar guía de investigación proporcionada.
+- [ ] Identificar etapas del proceso científico.
+- [ ] Conocer herramientas digitales para búsquedas.
+- [ ] Participar en sesión de orientación con docente.
 
----
-
-## 📝 Notas del estudiante
-> Escribe aquí tus apuntes, dudas o acuerdos con el docente.
+## Observaciones del docente
+> Aquí irán los comentarios de retroalimentación.
 
 ---
 
