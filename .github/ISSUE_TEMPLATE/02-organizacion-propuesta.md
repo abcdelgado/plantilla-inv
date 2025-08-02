@@ -1,27 +1,27 @@
 ---
-name: "02 | 📂 Organización de la propuesta"
-about: "Estructurar la propuesta y planificar el desarrollo del proyecto"
-title: "02 | 📂 Organización de la propuesta"
+name: "01 | 🔎 Aprender a investigar"
+about: "Primera fase del proyecto: fundamentos básicos de la investigación"
+title: "01 | 🔎 Aprender a investigar"
 labels: ["pendiente"]
 assignees: ""
 ---
 
 ## Descripción
-Organizar la propuesta de investigación definiendo apartados iniciales y un esquema claro para el desarrollo.
+Introducción al proceso de investigación: comprender los pasos fundamentales y conocer herramientas digitales para iniciar el proyecto.
 
-## Competencias:
-> Desarrolla la Estructura de la Investigación conforme a los lineamientos explicados.
-> Construye la Estructura Capitular de la Investigación, cónsona con el Tema y los Objetivos propuestos
-> Aplica las Normas de Estilo y Redacción para la construcción y presentación del Informe final de Investigación.
+## Competencias
+> - Desarrolla la Estructura de la Investigación conforme a los lineamientos explicados.  
+> - Construye la Estructura Capitular de la Investigación, cónsona con el Tema y los Objetivos propuestos.  
+> - Aplica las Normas de Estilo y Redacción para la construcción y presentación del Informe final de Investigación.
 
 ## Checklist
-- [ ] Crear un borrador del esquema de la propuesta.
-- [ ] Organizar secciones: portada, índice, objetivos.
-- [ ] Revisar formato y normas de estilo indicadas.
-- [ ] Presentar esquema al docente para retroalimentación.
+- [ ] Revisar guía de investigación proporcionada.
+- [ ] Identificar etapas del proceso científico.
+- [ ] Conocer herramientas digitales para búsquedas.
+- [ ] Participar en sesión de orientación con docente.
 
 ## 📝 Notas del estudiante
 > Escribe aquí tus apuntes, dudas o acuerdos con el docente.
 
 ## 💬 Observaciones del docente
-> El docente agregará comentarios y sugerencias aquí durante la revisión.
+> Aquí irán los comentarios y sugerencias durante la revisión.
