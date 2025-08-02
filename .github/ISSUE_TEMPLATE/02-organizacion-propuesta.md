@@ -1,4 +1,3 @@
-
 ---
 name: "02 | 📂 Organización de la propuesta"
 about: "Estructurar la propuesta y planificar el desarrollo del proyecto"
