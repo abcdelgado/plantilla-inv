@@ -15,7 +15,7 @@ jobs:
       - name: Add issue to project
         uses: actions/add-to-project@v1
         with:
-          project-url: https://github.com/orgs/investigadores-upcruls/projects/1
+          project-url: https://github.com/orgs/investigadores-upcruls/projects/2
           github-token: ${{ secrets.GITHUB_TOKEN }}
           fields: |
             Status=Pendientes
