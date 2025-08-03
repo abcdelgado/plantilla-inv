@@ -4,16 +4,18 @@ on:
   issues:
     types:
       - opened
-      - labeled
 
 jobs:
   add-to-project:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
     steps:
       - name: Add issue to project and column
-        uses: actions/add-to-project@v0.4.1
+        uses: actions/add-to-project@v1
         with:
-          project-url: https://github.com/users/abcdelgado/projects/3
+          project-url: https://github.com/orgs/investigadores-upcruls/projects/1
           github-token: ${{ secrets.GITHUB_TOKEN }}
           fields: |
             Status=Pendientes
