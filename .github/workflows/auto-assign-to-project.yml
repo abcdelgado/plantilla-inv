@@ -1,22 +1,17 @@
-name: Add issue to project
+name: Auto-assign issues to project
 
 on:
   issues:
-    types:
-      - opened
+    types: [opened]
 
 jobs:
-  add_issue_to_project:
+  add-to-project:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      contents: read
     steps:
       - name: Add issue to project
-        uses: actions/add-to-project@v1
+        uses: actions/add-to-project@v0.4.1
         with:
-          project-url: https://github.com/orgs/investigadores-upcruls/projects/2
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          fields: |
-            Status=Pendientes
+          project-url: https://github.com/orgs/investigadores-upcruls/projects/2
+
 
