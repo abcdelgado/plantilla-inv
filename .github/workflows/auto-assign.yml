@@ -1,0 +1,42 @@
+name: Auto-assign issues from TXT
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  assign-from-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Read assign-users.txt and assign users
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = './data/assign-users.txt';
+
+            if (!fs.existsSync(path)) {
+              core.setFailed('El archivo assign-users.txt no se encuentra en la ruta ./data/');
+              return;
+            }
+
+            const usernames = fs.readFileSync(path, 'utf8')
+              .split('\n')
+              .map(line => line.trim())
+              .filter(line => line !== '');
+
+            if (usernames.length === 0) {
+              console.log('El archivo está vacío o sin nombres válidos.');
+              return;
+            }
+
+            await github.rest.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              assignees: usernames
+            });
